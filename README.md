@@ -11,6 +11,7 @@ go run main.go <url> <destination>
 Developed using Golang version 1.18
 
 Missing features:
+- File processing to guarantee that links are relative to base directory
 - Handle Ctrl-C
   > Not top priority feature while no concurrency implemented
 - Concurrency 
